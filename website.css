@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+
+}
+
+
+
+
+body{
+    height:100vh;
+    width: 100%;
+    background-image:url("https://images.pexels.com/photos/3721941/pexels-photo-3721941.jpeg?auto=compress&cs=tinysrgb&h=650&w=940") ;
+    background-size: cover ;
+    background-position:relative ;
+    position: relative ;
+
+}
+
+.content{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+
+}
+
+.logo{
+    width: 140px;
+    cursor: pointer;
+
+}
+
+.content ul li{
+    list-style: none;
+    display: inline-block;
+   
+   
+
+}
+
+button{
+    color:#340563;
+    background-color:rgb(212, 77, 77);
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    box-shadow:0 9px rgb(16, 42, 121) ;
+    padding: 10px 20px;
+
+}
+
+
+.para{
+    width:100%
+    
+    top:30%
+}
+.rightside{
+    font-size: 40px;
+    color: rgb(79, 90, 102);
+    line-height: 110px;
+    float: right;
+    font-family: fantasy;
+    margin-right: 100px;
+
+}
+
+.leftside{
+    font-family:unset;
+    font-size: 20px;
+    float: left;
+    color: rgb(224, 217, 218);
+    margin-left: 80px;
+    margin-top: 300px;
+
+}
+
+#icon{
+    width: 80px;
+    cursor:pointer;
+
+}
+
+

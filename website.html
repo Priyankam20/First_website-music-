@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="website.css">
+</head>
+<body>
+    
+    
+
+        <div class="content">
+            <img src="alexander-shatov-qt7S2QuAhJI-unsplash.jpg" class="logo">
+             
+            <ul>
+                <li><button><a href="@">Home</a></button></li>
+                <li><button><a href="@">About</a></button></li>
+                <li><button><a href="@">Sign In/Up</a></button></li>
+                <li><button><a href="@">Contact</a></button></li>
+        </ul>
+    </div>
+         <div class="para">
+            <div class="rightside">
+                
+                <h1>MUSIC IS <br> LIFE. THAT'S<br>WHY OUR<br>
+                    HEARTS<br> HAVE BEATS.</h1>
+            </div>
+             <div class="leftside">
+                <p>Let's Listen Something</p>
+                
+                <img src="https://i.pinimg.com/564x/15/7c/ed/157cedb6e30734e84862c33cf024752a.jpg" id="icon">
+
+             </div>
+             
+        
+
+    </div>
+
+    <audio id="mysong">
+        <source src="Alessia Cara - Scars To Your Beautiful.mp3" type="audio/mp3">
+    </audio> 
+
+    <script>
+        
+        var mysong = document.getElementById("mysong");
+        var icon = document.getElementsById("icon");
+
+        icon.onclick = function(){
+        if(mysong.paused){
+            mysong.onplay();
+            icon.src="https://i.pinimg.com/564x/15/7c/ed/157cedb6e30734e84862c33cf024752a.jpg";
+        }else{
+            mysong.pause();
+            icon.src="https://i.pinimg.com/564x/15/7c/ed/157cedb6e30734e84862c33cf024752a.jpg";
+    }
+}
+</scipt>
+  
+
+
+
+    </script>
+     
+    
+    
+</body>
+</html>
